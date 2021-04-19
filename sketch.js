@@ -21,11 +21,10 @@ function setup() {
 }
 
 function draw() {
-  background(0);  
-  bg.velocityX=-1
-  if(bg.x<350){ 
-   bg.velocityX=0
-    bg.x=bg.x+3
+  background("white");  
+  bg.velocityX = -1
+  if (bg.x < 40){
+    bg.x = bg.width/2;
   }
   Engine.update(engine);
   snoe()

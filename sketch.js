@@ -23,7 +23,7 @@ function setup() {
 function draw() {
   background("white");  
   bg.velocityX = -1
-  if (bg.x < 40){
+  if (bg.x < 400){
     bg.x = bg.width/2;
   }
   Engine.update(engine);
